@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MadProj2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcomeMessage">Welcome to the guessing game. </string>
+    <string name="addition">Addition</string>
+
+    <string-array name="addition">
+        <item>Addition</item>
+        <item>Subtraction</item>
+        <item>Multiply</item>
+        <item>Division</item>
+    </string-array>
+
+    <string name="problem">Equation!</string>
+    <string name="enterAns">Enter your answer</string>
+    <string name="submitSolution">Final answer</string>
+    <string name="title_activity_answer_screen">AnswerScreen</string>
+    <string name="solvingProb">The problem was X</string>
+    <string name="AnswerComp">Answer = x</string>
+    <string name="AnswerUser">You entered X</string>
+    <string name="userCorrectOrNo">Null</string>
+    <string name="backToMain">Go back</string>
+    <string name="score">Your score so far is 0</string>
+    <string name="startGame">Start Game?</string>
+    <string name="rules">How to Play</string>
+    <string name="title_activity_rules">Rules</string>
+    <string name="setOfRules">Select what operation you prefer(Addition, Subtraction, Division, Multiplication). Addition and Subtraction is worth 10 points. Multiplication and Division is worth 20 points.</string>
+    <string name="remainder">Remainder(Division only)</string>
+    <string name="togButtonOn">Loading Nothing</string>
+    <string name="togButtonOff">Not loading anything</string>
+
+</resources>

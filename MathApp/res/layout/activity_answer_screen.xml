@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AnswerScreen" >
+
+    <TextView
+        android:id="@+id/problemField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/solvingProb" />
+
+    <TextView
+        android:id="@+id/answerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/problemField"
+        android:layout_below="@+id/problemField"
+        android:text="@string/AnswerComp" />
+
+    <TextView
+        android:id="@+id/userEnterLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/answerLabel"
+        android:layout_below="@+id/answerLabel"
+        android:text="@string/AnswerUser" />
+
+    <TextView
+        android:id="@+id/CorrectOrNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userEnterLabel"
+        android:layout_below="@+id/userEnterLabel"
+        android:text="@string/userCorrectOrNo" />
+
+    <Button
+        android:id="@+id/answerGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CorrectOrNo"
+        android:layout_below="@+id/CorrectOrNo"
+        android:layout_marginTop="91dp"
+        android:text="@string/backToMain" />
+
+</RelativeLayout>
